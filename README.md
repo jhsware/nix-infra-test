@@ -57,7 +57,7 @@ The control node(s) make up the control plane and handles dynamic cluster state 
 - overlay network
 - service mesh
 
-This allows us to limit interaction with the specific nodes being changed during deployment and allow the cluster to automatically propagate changes to the other affected nodes in the cluster.
+This allows us to limit interaction to the specific nodes being changed during deployment. The cluster will automatically propagate changes to the other affected nodes in the cluster.
 
 The worker nodes run databases and applications.
 
